@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Acme", sans-serif, cursive;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+.flexible-content {
+  display: flex;
+}
+.banner-section {
+  margin-bottom: 50px;
+}
+.hero {
+  position: relative;
+  width: 600px;
+  margin-top: 66px;
+}
+.bg {
+  position: absolute;
+  width: 700px;
+  margin-left: 20px;
+}
+.banner-text {
+  width: 100%;
+  padding: 150px 70px;
+  font-size: 30px;
+}
+.banner-img {
+  width: 100%;
+}
+a {
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.banner-h3 {
+  margin-bottom: 30px;
+}
+.about-section {
+  display: flex;
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-img {
+  width: 100%;
+}
+.about-text {
+  width: 100%;
+  width: 100%;
+  padding: 150px 70px;
+  font-size: 30px;
+}
+.about-pic {
+  width: 100%;
+  padding: 70px 200px;
+}
+.about-text p {
+  padding-bottom: 80px;
+}
+.recipie1 {
+  width: 100%;
+  margin: 50px;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 30px;
+  padding: 30px;
+}
+.recipie1 img {
+  width: 100%;
+}
+.recipie-header {
+  text-align: center;
+}
+.recipie-header {
+  padding: 10px 400px;
+}
+.counter-section {
+  margin: 30px 100px;
+  box-shadow: 10px 10px 50px gray;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+.counter1 {
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  background-color: black;
+  padding: 50px 0px;
+  width: 100%;
+  color: white;
+}
